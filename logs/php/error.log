@@ -1,0 +1,98 @@
+[02-Sep-2021 10:17:58 UTC] PHP Parse error:  syntax error, unexpected ';' in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 7
+[02-Sep-2021 12:32:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:2
+Stack trace:
+#0 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/gertrude...')
+#2 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/index.php(17): require('/Users/gertrude...')
+#3 {main}
+  thrown in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 2
+[02-Sep-2021 12:33:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:3
+Stack trace:
+#0 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/gertrude...')
+#2 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/index.php(17): require('/Users/gertrude...')
+#3 {main}
+  thrown in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 3
+[02-Sep-2021 12:37:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_body() in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:10
+Stack trace:
+#0 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/gertrude...')
+#2 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/index.php(17): require('/Users/gertrude...')
+#3 {main}
+  thrown in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 10
+[02-Sep-2021 12:37:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_text() in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:10
+Stack trace:
+#0 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/gertrude...')
+#2 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/index.php(17): require('/Users/gertrude...')
+#3 {main}
+  thrown in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 10
+[02-Sep-2021 14:37:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function footer() in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/footer.php:7
+Stack trace:
+#0 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template.php(770): require_once()
+#1 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template.php(716): load_template('/Users/gertrude...', true, Array)
+#2 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php(17): get_footer()
+#4 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/gertrude...')
+#5 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/gertrude...')
+#6 /U in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/footer.php on line 7
+[02-Sep-2021 14:37:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function footer() in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/footer.php:7
+Stack trace:
+#0 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template.php(770): require_once()
+#1 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template.php(716): load_template('/Users/gertrude...', true, Array)
+#2 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php(17): get_footer()
+#4 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/gertrude...')
+#5 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/gertrude...')
+#6 /U in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/footer.php on line 7
+[02-Sep-2021 14:37:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function footer() in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/footer.php:7
+Stack trace:
+#0 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template.php(770): require_once()
+#1 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template.php(716): load_template('/Users/gertrude...', true, Array)
+#2 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single.php(14): get_footer()
+#4 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/gertrude...')
+#5 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/gertrude...')
+#6 / in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/footer.php on line 7
+[07-Sep-2021 12:09:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_tittle() in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+Stack trace:
+#0 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/gertrude...')
+#2 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/index.php(17): require('/Users/gertrude...')
+#3 {main}
+  thrown in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 9
+[07-Sep-2021 12:09:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_tittle() in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+Stack trace:
+#0 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/gertrude...')
+#2 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/index.php(17): require('/Users/gertrude...')
+#3 {main}
+  thrown in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 9
+[07-Sep-2021 12:09:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_tittle() in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+Stack trace:
+#0 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/gertrude...')
+#2 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/index.php(17): require('/Users/gertrude...')
+#3 {main}
+  thrown in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 9
+[07-Sep-2021 12:10:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_tittle() in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+Stack trace:
+#0 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/gertrude...')
+#2 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/index.php(17): require('/Users/gertrude...')
+#3 {main}
+  thrown in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 9
+[07-Sep-2021 12:10:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_tittle() in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+Stack trace:
+#0 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/gertrude...')
+#2 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/index.php(17): require('/Users/gertrude...')
+#3 {main}
+  thrown in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 9
+[07-Sep-2021 12:10:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_tittle() in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php:9
+Stack trace:
+#0 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/gertrude...')
+#2 /Users/gertrudewestrin/Local Sites/fictional-university/app/public/index.php(17): require('/Users/gertrude...')
+#3 {main}
+  thrown in /Users/gertrudewestrin/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 9
